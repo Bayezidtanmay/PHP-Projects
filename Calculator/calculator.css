@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+}
+
+main {
+    text-align: center;
+    height: 100vh;
+}
+
+main h2 {
+    margin-top: 25vh;
+}
+
+form {
+    margin-top: 20px;
+}
+main label {
+    display: block;
+    align-items: start;
+}
+
+form input {
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+button {  
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: 16px;
+    border: 1px solid #05204A;
+    transition: 0.4s all ease;
+    background-color: transparent;
+    border-radius: 3px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #3B1F2B;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.output {
+    font-size: 26px;
+    margin-left: 5px;
+    background-color: #3B1F2B;
+    color: white;
+    padding: 10px 20px;
+}
