@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter;
+    text-align: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 32px;
+    color: #736CED;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #736CED;
+}
+
+input {
+    padding: 10px 45px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #726ced58;
+}
+
+input[name="convert"] {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #736CED;
+    padding: 10px 30px;
+    font-size: 15px;
+    transition: 0.4s all ease;
+}
+
+input[name="convert"]:hover {
+    background-color: #726ced;
+    color: white;
+    cursor: pointer;
+}
+
+h4 {
+    color: #726ced;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
